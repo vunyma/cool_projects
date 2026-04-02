@@ -1,0 +1,8 @@
+import time
+
+def handle_request(req):
+    time.sleep(9)
+    return process(req)
+
+def process(req):
+    return req
